@@ -3,7 +3,7 @@ FROM node
 WORKDIR /usr/app
 RUN mkdir conf
 COPY package*.json ./
-RUN npm install
+RUN npm install --loglevel verbose
 COPY . .
 
 # production environment

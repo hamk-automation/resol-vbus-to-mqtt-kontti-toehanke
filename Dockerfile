@@ -9,4 +9,4 @@ COPY . .
 # production environment
 
 USER node
-CMD ["node", "main.js"]
+CMD ["node", "index.js"]

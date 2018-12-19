@@ -1,0 +1,19 @@
+{
+  "name": "resol-olk-integration",
+  "version": "0.0.1",
+  "description": "resol olk integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://humanPlaying@dev.azure.com/humanPlaying/resol-olk-integration/_git/resol-olk-integration"
+  },
+  "author": "Khoa Dang",
+  "license": "MIT",
+  "dependencies": {
+    "resol-vbus": "^0.17.0",
+    "tabletojson": "^1.0.1"
+  }
+}

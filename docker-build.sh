@@ -1,0 +1,1 @@
+docker build -t humia-integration-konttiserver:latest .

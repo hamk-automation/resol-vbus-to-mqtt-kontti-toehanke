@@ -1,6 +1,6 @@
 # build environment
 FROM node
-WORKDIR /usr/src/app
+WORKDIR /usr/app
 RUN mkdir conf
 COPY package*.json ./
 RUN npm install

@@ -1,1 +1,1 @@
-docker build -t humia-integration-konttiserver:latest .
+docker build -t ${PWD##*/}:latest .

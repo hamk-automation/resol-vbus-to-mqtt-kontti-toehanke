@@ -13,6 +13,9 @@
   "author": "Khoa Dang",
   "license": "MIT",
   "dependencies": {
+    "async-mqtt": "^2.0.0",
+    "mqtt": "^2.18.8",
+    "mqttjs": "0.0.0",
     "resol-vbus": "^0.17.0",
     "tabletojson": "^1.0.1"
   }

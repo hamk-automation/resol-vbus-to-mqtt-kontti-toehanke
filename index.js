@@ -1,5 +1,8 @@
-var vbus = require('resol-vbus')
-var fs = require('fs')
+const vbus = require('resol-vbus')
+const mqtt = require('async-mqtt');
+const fs = require('fs')
+
+const varNameDictionary = JSON.parse(fs.readFileSync('modifiedTable.json'))
 const hsc = new vbus.HeaderSetConsolidator({
     interval: 100,
 });
@@ -22,7 +25,6 @@ var onPacket = function(packet) {
 connection.on('packet', async(packet) => {
     headerSet.addHeader(packet)
     hsc.addHeader(packet)
-    console.log(await generateJsonData())
 });
 
 hsc.on('headerSet', (headerSet) => {
@@ -31,24 +33,65 @@ hsc.on('headerSet', (headerSet) => {
     // });
 });
 
-connection.connect().then(() => {
-    console.log('Connected!')
-}, () => {
-    console.log('Connection failed');
-})
-
 const generateJsonData = async function() {
     const packetFields = spec.getPacketFieldsForHeaders(headerSet.getSortedHeaders());
 
     const data = packetFields.map((pf) => {
         let obj = {}
-        let timestamp = new Date()
+        let timestamp = pf.packet.timestamp
+
         obj.id = pf.id
-        obj[toCamelCase(pf.name)] = pf.rawValue
+        if (varNameDictionary[pf.name] !== undefined) {
+            obj[toCamelCase(varNameDictionary[pf.name].customName)] = pf.rawValue
+        } else {
+            obj[toCamelCase(pf.name)] = pf.rawValue
+        }
         obj["unit"] = 0 || pf.formatTextValue().substring(pf.formatTextValue().lastIndexOf(' ') + 1)
+        obj["unit"] = obj["unit"] === '0%' ? '%' : obj["unit"]
         obj.timestamp = timestamp.getTime()
+            // console.log('packet: ')
+            // console.log(obj)
         return obj
     });
 
     return data
+}
+
+
+var credentials = JSON.parse(fs.readFileSync('conf/credentials.json'))
+var mqttOptions = JSON.parse(fs.readFileSync('conf/mqttCredentials.json'))
+var mqttClient = mqtt.connect(credentials.mqttHost, mqttOptions)
+var baseTopic = 'hamk/olk/solarHeat'
+
+mqttClient.on("connect", () => {
+    if (connection.connectionState !== 'CONNECTED') {
+        var vbusConnection = connection.connect()
+        vbusConnection.then(() => {
+            console.log('Connected!')
+            setTimeout(sendMqttData, 30000)
+        }, () => {
+            console.log('Connection failed');
+        })
+    }
+})
+
+function sendMqttData() {
+    var resolData = generateJsonData()
+    resolData.then((data) => {
+        var mqttMessageArray = data.map((sensor) => {
+            let mqttMessage = {
+                topic: baseTopic +
+                    '/' + sensor.id,
+                message: JSON.stringify(sensor)
+            }
+            return mqttMessage
+        })
+        var mqttPush = Promise.all(mqttMessageArray.map((mqttMessage) => {
+            mqttClient.publish(mqttMessage.topic, mqttMessage.message).catch(error => error)
+        }))
+        mqttPush.then((values) => {
+            console.log(values)
+            setTimeout(sendMqttData, 10000)
+        })
+    })
 }

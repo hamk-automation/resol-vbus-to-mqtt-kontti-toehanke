@@ -1,2 +1,5 @@
 node_modules
 .vscode
+parsedTable.json
+table1.html
+tableMod.js

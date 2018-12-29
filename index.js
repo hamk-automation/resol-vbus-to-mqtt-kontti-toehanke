@@ -91,7 +91,7 @@ function sendMqttData() {
         }))
         mqttPush.then((values) => {
             console.log(values)
-            setTimeout(sendMqttData, 10000)
+            setTimeout(sendMqttData, 5000)
         })
     })
 }

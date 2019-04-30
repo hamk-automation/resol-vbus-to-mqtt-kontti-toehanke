@@ -1,0 +1,477 @@
+[
+    {
+        "id": "00_0010_7112_10_0100_000_2_0",
+        "name": "Temperature sensor 1",
+        "rawValue": 40.400000000000006
+    },
+    {
+        "id": "00_0010_7112_10_0100_002_2_0",
+        "name": "Temperature sensor 2",
+        "rawValue": 39.5
+    },
+    {
+        "id": "00_0010_7112_10_0100_004_2_0",
+        "name": "Temperature sensor 3",
+        "rawValue": 38.800000000000004
+    },
+    {
+        "id": "00_0010_7112_10_0100_006_2_0",
+        "name": "Temperature sensor 4",
+        "rawValue": 40.400000000000006
+    },
+    {
+        "id": "00_0010_7112_10_0100_008_2_0",
+        "name": "Temperature sensor 5",
+        "rawValue": 38.6
+    },
+    {
+        "id": "00_0010_7112_10_0100_010_2_0",
+        "name": "Temperature sensor 6",
+        "rawValue": 39.800000000000004
+    },
+    {
+        "id": "00_0010_7112_10_0100_012_2_0",
+        "name": "Temperature sensor 7",
+        "rawValue": 44.2
+    },
+    {
+        "id": "00_0010_7112_10_0100_014_2_0",
+        "name": "Temperature sensor 8",
+        "rawValue": 38.900000000000006
+    },
+    {
+        "id": "00_0010_7112_10_0100_016_2_0",
+        "name": "Temperature sensor 9",
+        "rawValue": 35.2
+    },
+    {
+        "id": "00_0010_7112_10_0100_018_2_0",
+        "name": "Irradiation sensor 10",
+        "rawValue": 1350
+    },
+    {
+        "id": "00_0010_7112_10_0100_020_2_0",
+        "name": "Temperature sensor 11",
+        "rawValue": 30
+    },
+    {
+        "id": "00_0010_7112_10_0100_022_2_0",
+        "name": "Temperature sensor 12",
+        "rawValue": 999.9000000000001
+    },
+    {
+        "id": "00_0010_7112_10_0100_024_4_0",
+        "name": "Flow rate Sensor 9",
+        "rawValue": 0
+    },
+    {
+        "id": "00_0010_7112_10_0100_028_4_0",
+        "name": "Flow rate Sensor 11",
+        "rawValue": 0
+    },
+    {
+        "id": "00_0010_7112_10_0100_032_4_0",
+        "name": "Flow rate Sensor 12",
+        "rawValue": 0
+    },
+    {
+        "id": "00_0010_7112_10_0100_036_2_0",
+        "name": "Pressure sensor 11",
+        "rawValue": 99.99000000000001
+    },
+    {
+        "id": "00_0010_7112_10_0100_038_2_0",
+        "name": "Pressure sensor 12",
+        "rawValue": 99.99000000000001
+    },
+    {
+        "id": "00_0010_7112_10_0100_040_1_0",
+        "name": "Relay 1",
+        "rawValue": 0
+    },
+    {
+        "id": "00_0010_7112_10_0100_041_1_0",
+        "name": "Relay 2",
+        "rawValue": 0
+    },
+    {
+        "id": "00_0010_7112_10_0100_042_1_0",
+        "name": "Relay 3",
+        "rawValue": 0
+    },
+    {
+        "id": "00_0010_7112_10_0100_043_1_0",
+        "name": "Relay 4",
+        "rawValue": 0
+    },
+    {
+        "id": "00_0010_7112_10_0100_044_1_0",
+        "name": "Relay 5",
+        "rawValue": 0
+    },
+    {
+        "id": "00_0010_7112_10_0100_064_1_0",
+        "name": "PWM/0-10V A",
+        "rawValue": 0
+    },
+    {
+        "id": "00_0010_7112_10_0100_065_1_0",
+        "name": "PWM/0-10V B",
+        "rawValue": 0
+    },
+    {
+        "id": "00_0010_7112_10_0100_048_4_0",
+        "name": "System date",
+        "rawValue": 578314488
+    },
+    {
+        "id": "00_0010_7112_10_0100_052_4_0",
+        "name": "Error mask",
+        "rawValue": 0
+    },
+    {
+        "id": "00_0010_7112_10_0100_068_4_0",
+        "name": "Warning mask",
+        "rawValue": null
+    },
+    {
+        "id": "00_0010_7113_10_0100_000_2_0",
+        "name": "Temperature Module 1 Sensor 1",
+        "rawValue": 999.9000000000001
+    },
+    {
+        "id": "00_0010_7113_10_0100_002_2_0",
+        "name": "Temperature Module 1 Sensor 2",
+        "rawValue": 999.9000000000001
+    },
+    {
+        "id": "00_0010_7113_10_0100_004_2_0",
+        "name": "Temperature Module 1 Sensor 3",
+        "rawValue": 999.9000000000001
+    },
+    {
+        "id": "00_0010_7113_10_0100_006_2_0",
+        "name": "Temperature Module 1 Sensor 4",
+        "rawValue": 999.9000000000001
+    },
+    {
+        "id": "00_0010_7113_10_0100_008_2_0",
+        "name": "Temperature Module 1 Sensor 5",
+        "rawValue": 999.9000000000001
+    },
+    {
+        "id": "00_0010_7113_10_0100_010_2_0",
+        "name": "Temperature Module 1 Sensor 6",
+        "rawValue": 999.9000000000001
+    },
+    {
+        "id": "00_0010_7113_10_0100_012_2_0",
+        "name": "Temperature Module 2 Sensor 1",
+        "rawValue": 999.9000000000001
+    },
+    {
+        "id": "00_0010_7113_10_0100_014_2_0",
+        "name": "Temperature Module 2 Sensor 2",
+        "rawValue": 999.9000000000001
+    },
+    {
+        "id": "00_0010_7113_10_0100_016_2_0",
+        "name": "Temperature Module 2 Sensor 3",
+        "rawValue": 999.9000000000001
+    },
+    {
+        "id": "00_0010_7113_10_0100_018_2_0",
+        "name": "Temperature Module 2 Sensor 4",
+        "rawValue": 999.9000000000001
+    },
+    {
+        "id": "00_0010_7113_10_0100_020_2_0",
+        "name": "Temperature Module 2 Sensor 5",
+        "rawValue": 999.9000000000001
+    },
+    {
+        "id": "00_0010_7113_10_0100_022_2_0",
+        "name": "Temperature Module 2 Sensor 6",
+        "rawValue": 999.9000000000001
+    },
+    {
+        "id": "00_0010_7131_10_0100_000_4_0",
+        "name": "Heat quantity",
+        "rawValue": 2372996
+    },
+    {
+        "id": "00_0010_7131_10_0100_008_4_0",
+        "name": "Heat quantity today",
+        "rawValue": 0
+    },
+    {
+        "id": "00_0010_7131_10_0100_012_4_0",
+        "name": "Heat quantity week",
+        "rawValue": 20996
+    },
+    {
+        "id": "00_0010_7131_10_0100_016_4_0",
+        "name": "Volume in total",
+        "rawValue": 552107
+    },
+    {
+        "id": "00_6651_7112_10_0200_000_1_0",
+        "name": "Pump speed relay 1.1",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6651_7112_10_0200_001_3_0",
+        "name": "Timer 1.1",
+        "rawValue": 1
+    },
+    {
+        "id": "00_6651_7112_10_0200_004_1_0",
+        "name": "Pump speed relay 1.2",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6651_7112_10_0200_005_3_0",
+        "name": "Timer 1.2",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6651_7112_10_0200_008_1_0",
+        "name": "Pump speed relay 2.1",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6651_7112_10_0200_009_3_0",
+        "name": "Timer 2.1",
+        "rawValue": 1
+    },
+    {
+        "id": "00_6651_7112_10_0200_012_1_0",
+        "name": "Pump speed relay 2.2",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6651_7112_10_0200_013_3_0",
+        "name": "Timer 2.2",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6651_7112_10_0200_016_1_0",
+        "name": "Pump speed relay 3.1",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6651_7112_10_0200_017_3_0",
+        "name": "Timer 3.1",
+        "rawValue": 1
+    },
+    {
+        "id": "00_6651_7112_10_0200_020_1_0",
+        "name": "Pump speed relay 3.2",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6651_7112_10_0200_021_3_0",
+        "name": "Timer 3.2",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6651_7112_10_0200_024_1_0",
+        "name": "Pump speed relay 4.1",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6651_7112_10_0200_025_3_0",
+        "name": "Timer 4.1",
+        "rawValue": 1
+    },
+    {
+        "id": "00_6651_7112_10_0200_028_1_0",
+        "name": "Pump speed relay 4.2",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6651_7112_10_0200_029_3_0",
+        "name": "Timer 4.2",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6651_7112_10_0200_032_1_0",
+        "name": "Pump speed relay 5.1",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6651_7112_10_0200_033_3_0",
+        "name": "Timer 5.1",
+        "rawValue": 1
+    },
+    {
+        "id": "00_6651_7112_10_0200_036_1_0",
+        "name": "Pump speed relay 5.2",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6651_7112_10_0200_037_3_0",
+        "name": "Timer 5.2",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6651_7112_10_0200_040_1_0",
+        "name": "SensorOutputType1",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6651_7112_10_0200_041_1_0",
+        "name": "SensorOutputType2",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6651_7112_10_0200_042_1_0",
+        "name": "SensorOutputType3",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6651_7112_10_0200_043_1_0",
+        "name": "SensorOutputType4",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6651_7112_10_0200_044_1_0",
+        "name": "SensorOutputType5",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6651_7112_10_0200_045_1_0",
+        "name": "SensorOutputType6",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6652_7112_10_0200_000_1_0",
+        "name": "Pump speed relay 1.1",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6652_7112_10_0200_001_3_0",
+        "name": "Timer 1.1",
+        "rawValue": 1
+    },
+    {
+        "id": "00_6652_7112_10_0200_004_1_0",
+        "name": "Pump speed relay 1.2",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6652_7112_10_0200_005_3_0",
+        "name": "Timer 1.2",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6652_7112_10_0200_008_1_0",
+        "name": "Pump speed relay 2.1",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6652_7112_10_0200_009_3_0",
+        "name": "Timer 2.1",
+        "rawValue": 1
+    },
+    {
+        "id": "00_6652_7112_10_0200_012_1_0",
+        "name": "Pump speed relay 2.2",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6652_7112_10_0200_013_3_0",
+        "name": "Timer 2.2",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6652_7112_10_0200_016_1_0",
+        "name": "Pump speed relay 3.1",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6652_7112_10_0200_017_3_0",
+        "name": "Timer 3.1",
+        "rawValue": 1
+    },
+    {
+        "id": "00_6652_7112_10_0200_020_1_0",
+        "name": "Pump speed relay 3.2",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6652_7112_10_0200_021_3_0",
+        "name": "Timer 3.2",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6652_7112_10_0200_024_1_0",
+        "name": "Pump speed relay 4.1",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6652_7112_10_0200_025_3_0",
+        "name": "Timer 4.1",
+        "rawValue": 1
+    },
+    {
+        "id": "00_6652_7112_10_0200_028_1_0",
+        "name": "Pump speed relay 4.2",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6652_7112_10_0200_029_3_0",
+        "name": "Timer 4.2",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6652_7112_10_0200_032_1_0",
+        "name": "Pump speed relay 5.1",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6652_7112_10_0200_033_3_0",
+        "name": "Timer 5.1",
+        "rawValue": 1
+    },
+    {
+        "id": "00_6652_7112_10_0200_036_1_0",
+        "name": "Pump speed relay 5.2",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6652_7112_10_0200_037_3_0",
+        "name": "Timer 5.2",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6652_7112_10_0200_040_1_0",
+        "name": "SensorOutputType1",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6652_7112_10_0200_041_1_0",
+        "name": "SensorOutputType2",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6652_7112_10_0200_042_1_0",
+        "name": "SensorOutputType3",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6652_7112_10_0200_043_1_0",
+        "name": "SensorOutputType4",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6652_7112_10_0200_044_1_0",
+        "name": "SensorOutputType5",
+        "rawValue": 0
+    },
+    {
+        "id": "00_6652_7112_10_0200_045_1_0",
+        "name": "SensorOutputType6",
+        "rawValue": 0
+    }
+]

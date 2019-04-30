@@ -1,3 +1,3 @@
 docker stop ${PWD##*/}
 docker rm ${PWD##*/}
-docker run -dit --name ${PWD##*/} --restart unless-stopped -v "$PWD"/conf:/usr/app/conf ${PWD##*/}:latest
+docker run -dit --name ${PWD##*/} --group-add dialout --device=/dev/ttyACM0 -v "$PWD"/conf:/usr/app/conf ${PWD##*/}:0.1

@@ -1,1 +1,1 @@
-docker build -t ${PWD##*/}:latest .
+docker build -t ${PWD##*/}:0.1 .

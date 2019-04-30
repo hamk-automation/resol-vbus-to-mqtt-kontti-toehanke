@@ -1,9 +1,9 @@
 # build environment
-FROM node
+FROM arm32v7/node:10-stretch
 WORKDIR /usr/app
 RUN mkdir conf
 COPY package*.json ./
-RUN npm install --loglevel verbose
+RUN npm install --save --production
 COPY . .
 
 # production environment
